@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Atividade 10 - Duas Colunas (Float)</title>
+    <style type="text/css">
+        
+        body {
+            background-color: aliceblue;
+            margin: 0; 
+            padding: 20px; 
+            margin-top: 100px;
+        }
+
+        #menu {
+            width: 100%;
+            height: 100px;
+            position: fixed;
+            left: 0%;
+            top: 0%;
+            background-color: rebeccapurple;
+            display: flex; 
+            flex-direction:row;     
+            z-index: 1000; 
+        }
+
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+            color: aliceblue;
+            position: relative;
+            left: 10%;
+        }
+        
+        .news-columns-float {
+            width: 890px;
+            margin: 20px auto; 
+            overflow: hidden; 
+        }
+
+        article {
+            background-color: #b5b5b5;
+            box-sizing: border-box;
+            width: 420px; 
+            height: auto; 
+            border: rebeccapurple solid 1px;
+            padding: 10px;
+            margin: 5px;
+            overflow: hidden; 
+            border-radius: 15px;
+            float: left; 
+        }
+
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            margin-bottom: 15px; 
+        }
+
+        .image {
+            width: 160px;
+            height: 160px;
+            border-radius: 20px;
+            float: right;
+            margin-left: 15px;
+            margin-bottom: 0px;
+        }
+
+        a {
+            text-align: justify;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 0px;
+            position: relative;
+        }
+
+        a:link{ 
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        a:visited { 
+            color: aliceblue;
+        }
+
+
+        a:hover {
+            color: blue;
+        }
+
+        footer {
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            clear: both; 
+            text-align: left; 
+            margin: 0px;
+        }
+
+        nav {
+            position: relative;
+            color: aliceblue;
+            left: 35%;
+            top: 70%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="menu">
+        <h1>News</h1>
+        <nav>
+            <a>Menu</a> |
+            <a href="aula.html" target="_blank">Aula</a> |
+            <a>Contato</a>
+        </nav>
+    </div>
+
+    <div class="news-columns-float"> <article>
+            <img src="images/noticia1.jpg" class="image" alt="Imagem Notícia 1">
+            <header>CR7.com</header>
+            <a>Humanos finalmente conseguem fazer contato com seres extraterrestes: Os chamados seres da quinta dimensão possuem habilidades que promet...</a>
+            <footer>5 horas</footer>
+        </article>
+
+        <article>
+            <img src="images/noticia2.jpg" class="image" alt="Imagem Notícia 2">
+            <header>G1</header>
+            <a>Descoberta de civilização antiga em Marte muda a história da humanidade e revela segredos sobre o universo e nossa própria origem.</a>
+            <footer>8 horas</footer>
+        </article>
+
+        <article>
+            <img src="images/noticia3.jpg" class="image" alt="Imagem Notícia 3">
+            <header>Terra</header>
+            <a>Novo supercomputador promete revolucionar a inteligência artificial, atingindo capacidades de processamento jamais vistas antes.</a>
+            <footer>12 horas</footer>
+        </article>
+
+        <article>
+            <img src="images/noticia4.jpg" class="image" alt="Imagem Notícia 4">
+            <header>InfoMoney</header>
+            <a>Mercado de criptomoedas reage a novas regulamentações globais com valorização histórica, impulsionando a economia digital.</a>
+            <footer>1 dia</footer>
+        </article>
+    </div> </body>
+</html>
