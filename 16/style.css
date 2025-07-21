@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.container li {
+    margin: 0 5px;
+}
+
+#bootstrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+
+a {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+	
+	.container ul {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    }
+
+    .container li {
+    margin: 0 5px;
+    }
+
+    #bootstrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+}
