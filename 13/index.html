@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <title> Atividade 13 </title>
+    <link rel="stylesheet" href="normalize.css"/>
+
+    <style>
+
+        header {
+            display: flex;
+            justify-content: center;
+        }       
+
+        .box {
+            background: #b9c941;
+            width: 320px;
+            height: 155px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 200px; 
+        }
+
+        section {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+
+        .elemento1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50px 100px 0px 100px;
+        }
+
+        .elemento2{
+            position: absolute;
+            top: 0;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            border-radius: 100px 50px 100px 0px;
+        }
+
+        .elemento3{
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 100px 0px 100px 50px;
+        }
+
+        .elemento4{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            border-radius: 0px 100px 50px 100px;
+        }
+
+        .elemento5{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 100px 0px 0px 0px;
+        }
+
+        .elemento6{
+            position: absolute;
+            top: 0;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            border-radius: 0px 100px 0px 0px;
+        }
+
+        .elemento7{
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 0px 0px 0px 100px;
+        }
+
+        .elemento8{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            border-radius: 0px 0px 100px 0px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <div class="box">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>Nome: <input type="text" placeholder="Digite seu nome"/></p>
+                <p>E-Mail: <input type="text" placeholder="Digite seu email"/></p>
+            </fieldset>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="elemento1"></div>
+            <div class="elemento2"></div>
+            <div class="elemento3"></div>
+            <div class="elemento4"></div>
+        </section>
+        <section>
+            <div class="elemento5"></div>
+            <div class="elemento6"></div>
+            <div class="elemento7"></div>
+            <div class="elemento8"></div>
+        </section>
+    </div>
+
+</body>
+</html>

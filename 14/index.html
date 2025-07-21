@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+        
+    <link rel="stylesheet" href="normalize.css"/>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh; 
+        }
+
+        .title {
+            margin-top: 20px;
+            text-shadow: 3px 3px 3px gray;
+            font-size: 40px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+
+        #containerExemplos {
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            width: 100%;
+        }
+
+        #containerAtividade1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .box1 {
+            background: url(images/camera.png);
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            margin-right: 80px;
+            box-sizing: border-box;
+            box-shadow: 10px 10px 5px #888888;
+        }
+
+        .box2 {
+            background: linear-gradient(to top left, yellow,red);
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        .box3 {
+            background: linear-gradient(to bottom left, red , lime , magenta , cyan);
+            width: 350px;
+            height: 300px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+        
+        .box4 {
+            background-image: radial-gradient(red, yellow, green);
+            width: 800px;
+            height: 150px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        .box1 h1{
+            background: rgb(255, 255, 255, 0.5);
+            text-shadow: 3px 3px 3px orange;
+            margin: 0;
+        }
+
+        .box2 h1{
+            background: rgb(255, 255, 255, 0.5);
+            margin: 0;
+        }
+
+        .shadowBox1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+            height: 180px;
+            margin-right: 100px;
+            background-color: #eba39d;
+            box-shadow: 0px 10px 10px #888888;
+            border-radius: 10px;
+        }
+        .shadowBox2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+            height: 180px;
+            background-color: #ede799;
+            box-shadow: 0px 10px 5px #888888;
+            border-radius: 10px;
+        }
+
+        .shadow1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 410px;
+            height: 140px;
+            box-sizing: border-box;
+            border: 2px dashed white;
+            border-radius: 10px;
+        }
+
+        .shadow2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 410px;
+            height: 140px;
+            box-sizing: border-box;
+            border: 2px dashed white;
+            border-radius: 10px;
+        }
+
+        .pShadow {
+            color: white;
+            font-size: 22px;
+        }
+
+    
+
+    </style>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="title">Exemplos da Aula:</h1>
+        <div id="containerExemplos">
+            <div class="box1">
+                <h1>Lorem ipsum?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi maxime nisi at neque perferendis harum dignissimos fuga blanditiis obcaecati officia quas nesciunt, deserunt, odio sequi. Ut cum facilis exercitationem excepturi sunt, culpa molestiae, soluta ipsum, facere impedit totam! Nostrum itaque debitis, nemo quibusdam asperiores, voluptatem ullam consectetur sequi dolorum earum excepturi a cumque tempora iusto, illo nihil dolorem. </p>
+            </div>
+            <div class="box2">
+                <h1>Lorem ipsum?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi maxime nisi at neque perferendis harum dignissimos fuga blanditiis obcaecati officia quas nesciunt, deserunt, odio sequi. Ut cum facilis exercitationem excepturi sunt, culpa molestiae, soluta ipsum, facere impedit totam! Nostrum itaque debitis, nemo quibusdam asperiores, voluptatem ullam consectetur sequi dolorum earum excepturi a cumque tempora iusto, illo nihil dolorem. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Atividade Efeito Sombra:</h1>
+        <div id="containerAtividade1">
+            <div class="shadowBox1">
+                <div class="shadow1"><p class="pShadow">Shadow 1</p></div>
+            </div>
+            <div class="shadowBox2">
+                <div class="shadow2"><p class="pShadow">Shadow 2</p></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Atividade Gradiente Linear</h1>
+        <div class="box3"></div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Atividade Gradiente Radial</h1>
+        <div class="box4"></div>
+    </div>
+
+</body>
+</html>

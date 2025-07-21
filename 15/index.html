@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <title> Atividade 15 </title>
+
+    <style>
+        
+        .box1 {
+            position: relative;
+            left: 10px;
+            top: 10px;
+            width: 50px;
+            height: 50px;
+            background: red;
+            animation-name: minhaAnimacao;
+            animation-duration: 5s;
+            animation-delay: 3s;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+        }
+
+        .box2 {
+            position: absolute;
+            left: 45%;
+            top: 40%;
+            width: 200px;
+            height: 200px;
+            background: red;
+            animation-name: animacaoPrincipal;
+            animation-duration: 45s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes minhaAnimacao {
+            from {
+                left: 10px;
+            }
+            to {
+                left: 50px;
+                background: blue;
+                border-radius: 100px;
+            }
+        }
+
+        @keyframes animacaoPrincipal {
+            24% { 
+                transform: rotate(0deg);
+                background: red;
+            }
+            25% {
+                transform: rotate(90deg);
+                background: blue;
+            }
+            49%{
+                transform: rotate(90deg);
+                background: blue;
+            }
+            50% {
+                transform: rotate(180deg);
+                background: yellow;   
+            }
+            74% {
+                transform: rotate(180deg);
+                background: yellow; 
+            }
+            75% {
+                transform: rotate(270deg);
+                background: green;
+            }
+            99% {
+                transform: rotate(270deg);
+                background: green;
+            }
+            100% {
+                transform: rotate(360deg);
+                background: red;
+            }   
+        }
+
+    </style>
+  
+</head>
+<body>
+    
+    <div class="box1"></div>
+
+    <div class="box2"></div>
+
+</body>
+</html>
