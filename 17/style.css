@@ -1,0 +1,62 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    height: 620px;
+    width: 620px;
+}
+
+.img2 {
+    height: 200px;
+    width: 620px;
+}
+
+.img3 {
+    margin-top: 20px;
+    height: 190px;
+    width: 310px;
+}
+
+.img4 {
+    margin-top: 20px;
+    height: 190px;
+    width: 310px;
+}
+
+.img5 {
+    margin-top: 20px;
+    margin-right: 2.5px;
+    height: 190px;
+    width: 205px;
+}
+
+.img6 {
+    margin-top: 20px;
+    margin-right: 2.5px;
+    height: 190px;
+    width: 205px;
+}
+
+.img7 {
+    margin-top: 20px;
+    height: 190px;
+    width: 205px;
+}
