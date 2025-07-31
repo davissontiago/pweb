@@ -1,0 +1,34 @@
+.card-header{
+    display: flex; 
+    justify-content: space-between;
+    background-color: white;
+}
+.info-button{
+    margin-left: 10px;
+}
+.conteudo-seletor{
+    margin-top: 20px;
+}
+.tabela-style{
+    margin-top: 20px;
+}
+.style-button{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.button-minus{
+    justify-content: space-between;
+    border: 0px solid white;
+    background-color: white;
+    opacity: 0.6;
+}
+.modal-body .form-group{
+    margin-top: 5px;
+}
+.button-status{
+    margin-top: 15px;
+}
+.button-status button{
+    margin-right: 6px;
+}
+
