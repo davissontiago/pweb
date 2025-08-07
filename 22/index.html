@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Atividade 22 </title>
+
+    <script>
+
+        function minhaFuncao(arg1, arg2) {
+            
+            var soma = arg1 + arg2;
+
+            var msg = 'A soma é igual a ';
+
+            alert(msg + soma);
+
+        }
+
+        function escreve(arg) {
+
+            document.write(arg);
+
+        }
+
+        function calcRaiz(arg) {
+
+            var raiz = Math.sqrt(arg);
+
+            var msg = 'A raiz quadrada de ' + arg + ' é ' + raiz;
+
+            alert(msg);
+
+        }
+
+        function escreveDiv (arg) {
+
+            document.getElementById("minhaDiv").innerHTML = arg;
+
+        }
+
+        function escreveDiv2 () {
+        
+            var texto = prompt('Digite um texto qualquer');
+
+            document.getElementById("minhaDiv2").innerHTML = texto;
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>JavaScript</h1>
+
+    <button onclick="minhaFuncao(10,20)">Clique</button>
+
+    <button onclick="escreve('<h1>PROGRAMAÇÃO WEB</h1>')">Escreve</button>
+
+    <hr>
+
+    <h1>Raiz Quadrada</h1>
+
+    <button onclick="calcRaiz(25)">Raiz de 25</button>
+
+    <button onclick="calcRaiz(36)">Raiz de 36</button>
+
+    <button onclick="calcRaiz(49)">Raiz de 49</button>
+
+    <hr>
+
+    <h1>Escrevendo na Div</h1>
+
+    <button onclick="escreveDiv('<h1> Programação Web</h1>')">Escrever</button> <br><br>
+
+    <div id="minhaDiv"></div>
+
+    <hr>
+
+    <h1>Escrevendo Texto Dinâmico</h1>
+
+    <button onclick="escreveDiv2()">Escrever</button> <br><br>
+
+    <div id="minhaDiv2"></div>
+
+
+</body>
+
+</html>
