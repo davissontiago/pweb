@@ -1,0 +1,272 @@
+body {
+    background-color: #2C1E55;
+}
+
+.containerPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerSecundario {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #DCDCDC;
+    border-radius: 30px;
+    box-shadow: 0 0 50px #5F4594;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerAtividades {
+    width: 95%;
+    height:460px;
+    border: 2px solid #2C1E55;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.conteudo-scroll {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.conteudo-scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+}
+.conteudo-scroll::-webkit-scrollbar-track {
+    background: #654fa5;
+    border-radius: 20px;
+}
+.conteudo-scroll::-webkit-scrollbar-thumb {
+    background: #2C1E55;
+    border-radius: 10px;
+}
+
+.boxAtividade {
+    width: 180px;
+    height: 200px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 5px 5px 28px;
+    background-color: #2C1E55 ;
+    float: left;
+    justify-content: center;
+    padding: 3px;
+}
+
+.boxAtividade:hover {
+    box-shadow: 0px 0px 20px 5px #549ad4;
+}
+
+.boxProjeto {
+    width: 180px;
+    height: 200px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 5px 5px 28px;
+    background-color: #549ad4 ;
+    float: left;
+    justify-content: center;
+    padding: 3px;
+}
+
+.boxProjeto:hover {
+    box-shadow: 0px 0px 20px 5px #2C1E55;
+}
+
+.boxDetalhe {
+    width: 150px;
+    height: 170px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.img-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    margin: 15px 20px 0 0;
+}
+
+.img-logo {
+    width: 120px;
+    height: 150px;
+    margin: 15px 0px 0 20px;
+}
+
+.textShadow1 {
+    text-shadow: 0 0 10px #549ad4;
+    font-size: 18px;
+}
+
+.textShadow2 {
+    text-shadow: 0 0 10px #2C1E55;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+}
+
+h4 {
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+a {
+    font-size: 20;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+
+    .containerSecundario {
+        width: 100%;
+    }
+
+    .img-perfil {
+        width: 75px;
+        height: 75px;
+        margin: 5px 5px 0 5px;
+    }
+
+    .img-logo {
+        width: 60px;
+        height: 75px;
+        margin: 5px 10px 0px 0;
+    }
+
+    .img {
+        width: 70px;
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    .boxAtividade {
+        width: 130px;
+        height: 165px;
+        margin: 10px 5px 5px 20px;
+    }
+
+    .boxProjeto {
+        width: 130px;
+        height: 165px;
+        margin: 10px 5px 5px 20px;
+    }
+
+    .containerAtividades {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 395px) {
+
+    .containerSecundario {
+        width: 100%;
+    }
+
+    .img-perfil {
+        width: 75px;
+        height: 75px;
+        margin: 5px 5px 0 5px;
+    }
+
+    .img-logo {
+        width: 60px;
+        height: 75px;
+        margin: 5px 10px 0px 0;
+    }
+
+    .img {
+        width: 50px;
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    .boxAtividade {
+        width: 100px;
+        height: 140px;
+        margin: 10px 5px 5px 20px;
+    }
+
+    .boxProjeto {
+        width: 100px;
+        height: 140px;
+        margin: 10px 5px 5px 20px;
+    }
+
+    .containerAtividades {
+        height: 700px;
+    }
+
+}
